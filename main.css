@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  height: 60px;
+  width: ;
+  /*background-repeat: "images/navbar.png";*/
+  background-color: black;
+}
+
+.nav-bar ul {
+  display: inline;
+}
+
+.logo {
+  height: 59px;
+  width: 56;
+  background-image: url("images/logo.png");
+}
