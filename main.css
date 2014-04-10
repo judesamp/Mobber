@@ -7,7 +7,7 @@ body {
   height: 60px;
   width: ;
   /*background-repeat: "images/navbar.png";*/
-  background-color: black;
+  background-image: url('images/top_bar.png');
   color: white;
 }
 
@@ -67,7 +67,7 @@ body {
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  background-image:url('http://placehold.it/200x300');
+  background-image:url('images/bruce.png');
   background-repeat: no-repeat;
   display: inline-block;
 }
@@ -177,7 +177,7 @@ body {
 .mobber_stats_1 {
   width: 140px;
   height: 150px;
-  background-color: gray;
+  background-color: #D0CDC8;
   text-align: center;
 }
 
@@ -186,7 +186,7 @@ body {
   height: 150px;
   float: right;
   text-align: center;
-  background-color: gray;
+  background-color: #D0CDC8;
 }
 
 .big_num {
@@ -258,8 +258,10 @@ body {
   padding: 0;
 }
 
-.general_mob_container {
-
+.general_mob_div_container {
+  border-top: 1px solid black;
+  width: 940px;
+  margin: auto;
 }
 
 .general_mob_div {
@@ -267,7 +269,7 @@ body {
   width: 940px;
   height: 250px;
   background: white;
-  padding: 40px 0 40px 0;
+  padding: 18px 0 40px 0;
   margin: auto;
 }
 
@@ -283,6 +285,26 @@ body {
   background: #D0CDC8;
 }
 
+.start_mob_div h3 {
+  color: white;
+  text-align: center;
+  font-size: 120%;
+}
+
+.start_mob_div ul {
+  list-style-type: none;
+  padding-left: 20px
+}
+
+.start_mob_div li {
+  display: inline-block;
+  width: 70px;
+}
+
+.padded {
+  padding-left: 23px;
+}
+
 .footer {
   clear: both;
   width: 940px;
@@ -292,26 +314,20 @@ body {
   margin: auto;
 }
 
-F04241
-
 .mob_categories_div {
-  width: 280;
+  width: 290px;
   float: right;
-  background: red;
 }
 
 .contact_div {
   width: 280;
   float: right;
-  background: blue;
-
 }
 
 .connect_div {
-  width: 280;
+  width: 280px;
   float: right;
-  margin: 0 20px 0 20px;
-  background: green;
+  margin: 0 20px 0 30px;
 }
 
 .category {
@@ -329,7 +345,7 @@ F04241
 }
 
 .smallprint {
-  color: gray;
+  color: #BBBABA;;
   font-size: 80%;
 }
 
@@ -347,6 +363,8 @@ table {
 
 tr {
   border-bottom: 1px solid black;
+  width: 620px;
+  margin-bottom: 10px;
 } 
 
 .footer_container {
@@ -361,7 +379,7 @@ tr {
 }
 
 .mob_category_list button {
-  width: 120px;
+  width: 140px;
   height: 40px;
   padding: 0;
   margin-bottom: 10px;
@@ -375,6 +393,166 @@ tr {
 
 .connect_div {
   padding: 0 20px 0 20px;
+  margin-left: 20px;
+  position: relative;
+  left: 50px;
 }
 
+.white {
+  color: white;
+  width: 200px;
+}
 
+.connect_div input {
+  height: 45px;
+  width: 175px;
+  border-radius: 5px;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-size: 110%;
+}
+input::-moz-placeholder {
+  padding-left: 10px;
+  font-size: 110%;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+  padding-left: 10px;
+  font-size: 110%;
+}
+input:-ms-input-placeholder { 
+  padding-left: 10px;
+  font-size: 110%;
+}
+
+.social_list {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+}
+
+.with_underline {
+  border-bottom: 2px solid #373737;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+
+}
+
+.contact_text {
+  width: 200px;
+}
+
+.but_bigger {
+  margin: 0;
+  padding: 0;
+  font-size: 88%;
+  color: #BBBABA;
+}
+
+.email_button {
+  width: 140px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 10px;
+  background-color: #636362;
+  border: none;
+  border-radius:5px;
+  color: white;
+  outline: 1px solid black;
+  /*box-shadow:  1px 1px 1px 1px black;*/
+}
+
+/*border-style*/
+
+.smallprint2 {
+  font-size: 80%;
+  color: #414141;
+}
+
+.decorative_nums_div {
+  margin-right: 46px;
+}
+
+.circle_num {
+  background-color: #E7E7E7;
+  width: 20px;
+  text-align: center;
+}
+
+.spaced {
+  margin-left: 83px;
+}
+
+.one {
+  float: right;
+}
+
+.line1 {
+  position: relative;
+  left: 152px;
+  top: -105px;
+  width: 81px;
+  height: 8px;
+  background-color: #BDBBB6;
+}
+
+.line2 {
+  position: relative;
+  left: 49px;
+  top: -97px;
+  width: 81px;
+  height: 8px;
+  background-color: #BDBBB6;
+}
+
+.facebook_image {
+  position: relative;
+  top: 2px;
+  right: 3px;
+}
+
+.twitter_image {
+  position: relative;
+  top: 3px;
+}
+
+.google_image {
+  position:relative;
+  top: 2px;
+  right: 2px;
+}
+
+.last_list_item {
+  position: relative;
+  bottom: 3px;
+}
+
+.social_text {
+  position: relative;
+  bottom: 7px;
+}
+
+.padded2 {
+  padding-left: 60px;
+}
+
+.event {
+  font-weight: bold;
+  font-size: 113%;
+}
+
+.date {
+  color: #BBBABA;;
+  font-size: 90%;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.upcoming_mobs_header {
+  font-size: 159%;
+  margin: 0;
+  padding: 0;
+}
