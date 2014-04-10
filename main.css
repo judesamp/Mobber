@@ -1,20 +1,380 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #F2F0EC;
 }
 .nav-bar {
   height: 60px;
   width: ;
   /*background-repeat: "images/navbar.png";*/
   background-color: black;
+  color: white;
+}
+
+.nav-bar-text-div {
+  margin-left: 348px;
+  padding: 0;
+}
+
+.brand_name {
+  position:absolute;
+  right: 270px;
+  top: -8px;
+}
+
+.nav-bar-text-div {
+  position: absolute;
+  left: 150px;
+  /*padding-top: 7px;*/
 }
 
 .nav-bar ul {
+  padding-top: 10px;
+}
+
+.nav-bar li {
   display: inline;
+  color: white;
+}
+
+.second-in-nav-list {
+  padding-left: 30px;
+  margin-top: 8px;
 }
 
 .logo {
+  position: absolute;
+  left: 272px;
+  margin: 0;
+  padding: 0;
   height: 59px;
-  width: 56;
-  background-image: url("images/logo.png");
+  width: 100;
+  background-image: url('images/hat.png');
+  background-repeat: no-repeat;
 }
+
+.user_div {
+  width: 300px;
+  position: relative;
+  margin-left: 1064;
+  display: inline-block;
+}
+
+
+.user_image_div {
+  width: 55px;
+  height: 60px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background-image:url('http://placehold.it/200x300');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.user_name {
+  display: inline-block;
+  position: relative;
+  margin-left:3px;
+  bottom: 20px;
+}
+
+.header {
+  width: 100%;
+  height: 88px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.header_text {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.main_div {
+  width: 940px;
+  background-color: #F2F0EC;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.main_image_div {
+  float: left;
+  width: 621;
+  height: 402;
+  background-image:url('http://placekitten.com/621/402');
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.main_image_text_top {
+  height: 330px;
+}
+
+.U2_banner {
+  opacity: 1;
+  font-size: 135%;
+  position: relative;
+  color: white;
+  top: 14px;
+  left: 14px;
+}
+
+.image_border {
+  height: 56px;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.main_image_text_bottom {
+  background-color: #D0CDC8;         /*D0CDC8;*/
+  height: 103px;
+}
+
+.tour_announce {
+  color: #414141;
+}
+
+.tour_announce {
+  margin: 0 20px 0 20px;
+  font-style: italic;
+  font-size: 118%;
+}
+
+.mob_time {
+  float: right;
+  position: relative;
+  right: 20px;
+  top: 16px;
+}
+
+.mob_message {
+  background-color: #FCCD46;
+  width: 142px;
+  position: relative;
+  left: -3px;
+  top: -10px;
+  color: white;
+  text-align: center;
+}
+
+.num_of_mobbers {
+  margin: 6px 30px 2px 30px;
+}
+
+.mobber_stats_side_container {
+  float: right;
+  width: 300px;
+  height: 498px;
+  background: #F2F0EC;;
+}
+
+.mobber_stats_1 {
+  width: 140px;
+  height: 150px;
+  background-color: gray;
+  text-align: center;
+}
+
+.mobber_stats_2 {
+  width: 140px;
+  height: 150px;
+  float: right;
+  text-align: center;
+  background-color: gray;
+}
+
+.big_num {
+  padding-top: 30px;
+  color: white;
+  display: block;
+  font-size: 550%;
+}
+
+.mobdaddy {
+  background-color: #B5AEA4;
+  font-size: 85%;
+  display: block;
+  color: #4D4C4B;
+  position: relative;
+  top: 3px;
+}
+
+.image_row_container {
+  background-color: #F2F0EC;
+
+}
+
+.row_of_three_images {
+  clear: both;
+  width: 100%;
+  height: 280px;
+  background: white;
+  padding: 40px 0 40px 0;
+  
+}
+
+.images_holder {
+  width: 940px;
+  margin: auto;
+}
+
+.image_1 {
+  float: left;
+}
+
+.image_2 {
+  float: left;
+  margin: 0 20px 0 20px;
+}
+
+.image_3 {
+  float: left;
+}
+
+.deal_text_container {
+  width: 300px;
+  height: 90px;
+  padding-top: 5px;
+}
+
+.deal_headers {
+  float: left;
+  width: 175px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.time_div {
+  float: right;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.general_mob_container {
+
+}
+
+.general_mob_div {
+  clear: both;
+  width: 940px;
+  height: 250px;
+  background: white;
+  padding: 40px 0 40px 0;
+  margin: auto;
+}
+
+.schedule_div {
+  width: 630;
+  float: left;
+}
+
+.start_mob_div {
+  width: 300px;
+  height: 210px;
+  float: right;
+  background: #D0CDC8;
+}
+
+.footer {
+  clear: both;
+  width: 940px;
+  height: 300px;
+  background: #545352;
+  padding: 5px 0 40px 0;
+  margin: auto;
+}
+
+F04241
+
+.mob_categories_div {
+  width: 280;
+  float: right;
+  background: red;
+}
+
+.contact_div {
+  width: 280;
+  float: right;
+  background: blue;
+
+}
+
+.connect_div {
+  width: 280;
+  float: right;
+  margin: 0 20px 0 20px;
+  background: green;
+}
+
+.category {
+  font-size: 120%;
+}
+
+.list_one {
+  width: 125px;
+  float: left;
+}
+
+.list_two {
+  width: 125px;
+  float: right;
+}
+
+.smallprint {
+  color: gray;
+  font-size: 80%;
+}
+
+.deal_headers_text {
+  font-weight: bold;
+}
+
+.mobbers_needed {
+  clear: both;
+}
+
+table {
+   border-collapse:collapse;
+}
+
+tr {
+  border-bottom: 1px solid black;
+} 
+
+.footer_container {
+  color: white;
+  background: #545352;
+}
+
+.mob_category_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mob_category_list button {
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 10px;
+  background-color: #636362;
+  border: none;
+  border-radius:5px;
+  color: white;
+  outline: 1px solid black;
+  /*box-shadow:  1px 1px 1px 1px black;*/
+}
+
+.connect_div {
+  padding: 0 20px 0 20px;
+}
+
+
