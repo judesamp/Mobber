@@ -1,30 +1,43 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="main.css">
-
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 
-<div class='nav-bar'>
-  <div class='logo'></div>
-  <div class="nav-bar-text-div">
-    <h1 class="brand_name">MOBBER</h1>
-    <ul>
-      <li>
-        FIND A MOB
-      </li> 
+<body>
 
-      <li class="second-in-nav-list">
-        START A MOB
-      </li>
-    </ul>
+  <div class="nav_container">
+    <div class='nav-bar'>
+
+      <div class='logo'></div>
+
+      <div class="brand_name_div">
+        <h1 class="brand_name"></h1>
+      </div>
+
+      <div class="find">
+        <a href="#">FIND A MOM</a>
+      </div>
+
+      <div class="second-in-nav-list">
+        <a href="#">START A MOB</a>
+      </div>
+      
+      <div class="user_arrow_div">
+        <img class="user_arrow" src="images/user_arrow.png" alt="">
+      </div>
+        
+
+      <div class="user_name">
+        <span>John Doe</span>
+      </div>
+      
+      <div class="user_image">
+          <img class="user_image" src="images/bruce.png" alt="">
+      </div>
+    </div>
   </div>
-
-  <div class="user_div">
-    <div class="user_image_div"></div>
-    <span class="user_name">John Doe</span>
-  </div>
-</div>
-
+    
   <div class="header">
     <h1 class="header_text">Spread the word and be rewarded for spreading the word for others.</h1>
   </div>
@@ -35,14 +48,16 @@
         <div class="main_image_text_top">
           <div class="image_border">
             <span class="U2_banner">U2 World Tour</span>
-            <span class="mob_time">This mob ends in 3:18:04</span>
+            <span class="mob_time"><img class="clock_banner" src="images/clock_banner.png"><span class="mob_time_announce">This mob ends in 3:18:04</span>
           </div>
         </div>
 
         <div class="main_image_text_bottom">
           <h3 class="mob_message">Mob Message</h3>
           <p class="tour_announce">"U2's 360 tour starts April 16, 2012. Get your tickets at Ticketmanster" <a href="#">http://cl.ly/0d2p2f"</a></p>
+          <img class="ribbony" src="images/ribbony.png" alt="">
         </div>
+        <img class="arrow" src="images/arrow.png" alt="">
         <p class="num_of_mobbers smallprint">Joining this mob means you agree to allow Mobber to send this message on your account once the number of mobbers is reached.</p>
       </div>
 
@@ -50,28 +65,34 @@
 
         <div class="mobber_stats_2">
           <span class="big_num">250</span>
-          <span class="mobdaddy">MOBBERS NEEDED</span>
+          <span class="mobdaddy"><span class="text_about_mobs">MOBBERS NEEDED</span></span>
         </div>
 
         <div class="mobber_stats_1">
           <span class="big_num">78</span>
-          <span class="mobdaddy">MOBBERS</span>
+          <div class="mobdaddy"><span class="text_about_mobs">MOBBERS</span></div>
         </div>
 
        
 
         <div class="mobber_invite">
-          <h3>Join this Mob!</h3>
-          <p>Your Reward</p>
-          <p>Ticket Presale Entrance</p>
-          <p class="smallprint">This Mob will only be released if it is joined by the needed   amount of mobbers. Spread the word!<p>
-          <br>
-          <hr>
-          <img src="images/facebook_top.png">
-          <img class="second_img" src="images/twitter_top.png">
-          <img src="images/google_top.png">
-          <img src="images/link.png">
-          <span class="tiny_link_blue">http://kci.st/Av7rle</span>
+          <button class="mob_button">Join this Mob!</button>
+          <div class="mob_box">
+            <div class="ribbon_image">
+              <img src="images/ribbon.png">
+            </div>
+            <div class="text_under_ribbon">
+              <p class="reward_text">Your Reward</p>
+              <p class="ticket_text">Ticket Presale Entrance</p>
+             </div>
+          </div>
+            <p class="smallprint mob_small">This Mob will only be released if it is joined by the needed   amount of mobbers. Spread the word!<p>
+            <hr>
+            <img src="images/facebook_top.png">
+            <img class="second_img" src="images/twitter_top.png">
+            <img src="images/google_top.png">
+            <img src="images/link.png">
+            <span class="tiny_link_blue">http://kci.st/Av7rle</span>
         </div>
       </div>
     </div>
@@ -84,6 +105,7 @@
 	        <div class="deal_text_container">
 
 	          <div class="time_div">
+               <img class="deal_header_img" src="images/clock.png">
 	            <span class="time smallprint">3:12:43</span>
 	          </div>
 
@@ -104,6 +126,7 @@
 
 	        <div class="deal_text_container">
 	          <div class="time_div">
+               <img class="deal_header_img" src="images/clock.png">
 	            <span class="time smallprint">3:12:43</span>
 	          </div>
 
@@ -120,6 +143,7 @@
 	        <img src="http://placekitten.com/300/200">
 	        <div class="deal_text_container">
 	          <div class="time_div">
+               <img class="deal_header_img" src="images/clock.png">
 	            <span class="time smallprint">3:12:43</span>
 	          </div>
 
@@ -168,7 +192,7 @@
     
 
       <div class="start_mob_div">
-        <h3>Start Your Own Mob</h3>
+        <h3 class="start_mob_title">Start your own mob.</h3>
         <div class="decorative_nums_div">
           <p class="one circle_num spaced">3<p>
             
@@ -190,9 +214,10 @@
             Upload Mob Reward
           </li>
         </ul>
-        <button>Start a Mob</button>
+        
         <div class="line2"></div>
         <div class="line1"></div>
+        <button class="start_button">Start a Mob</button>
       </div>
 
     </div>
@@ -202,17 +227,19 @@
     <div class="footer">
 
       <div class="contact_div">
-        <button>How it Works</button>
+        <button class="works_button">How it Works</button>
         <h3>Have a problem?</h3>
         <p class="smallprint contact_text">Feel free to contact us if you're experiencing problems or just need some help.</p>
-        <button class="email_button">Email Us</button>
+        <div class="final with_underline">
+          <button class="email_button">Email Us</button>
+        </div>
         <p class="but_bigger">&#169; 2012 Mobber, Inc.</p>
         <p class="but_bigger">All Rights Reserved</p>
       </div>
 
       <div class="connect_div">
         <h3>Connect with Mobber</h3>
-        <p class="smallprint white">
+        <p class="smallprint white contact_text">
           Be the first to know about the latest mobs. Join our mailing list. and don't worry, it's completely private.
         </p>
         
@@ -247,10 +274,10 @@
               <li class="category"><button>Theater</button></li>
             </ul>
           </div>
-      </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</body>
 
 </html>
